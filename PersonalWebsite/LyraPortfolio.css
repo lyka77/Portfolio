@@ -1,0 +1,104 @@
+
+
+h1{
+    color: #5C5C5C;
+    font-family: 'Lato', sans-serif;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    color: #6976A5;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h4{
+    color: #29339B;
+    font-family: 'Lato', sans-serif;
+}
+
+h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    
+}
+
+
+body{
+    padding: 40px;
+    color: #F8F7FF;
+    
+}
+
+
+.info{
+    padding: 20px;
+    margin:auto;
+    background-color: #6976A5;
+    color: #F8F7FF;
+    font-family: 'Merriweather', serif;
+}
+
+.info2{
+    padding: 20px;
+    margin: auto;
+    color: #5C5C5C;
+    font-family: 'Merriweather', serif;
+}
+
+#logo{
+    height: 100px;
+}
+
+#pics{
+    max-width: max-content;
+}
+
+.cardTitle{
+    color: #5C5C5C;
+}
+
+.card-text-color{
+    color: #5C5C5C;
+}
+
+.pageLink{
+    color: #5C5C5C;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    transition:color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out 
+
+    
+}
+.pageLink:hover{
+    color: #29339B;
+    
+}
+
+.myImages{
+    margin: 10px;
+    max-width: 200px;
+    
+}
+
+.infoImgs{
+    max-width: fit-content;
+    margin: 10px;
+}
+
+.cardImg{
+    max-height: 300px;
+}
+
+a:link, a:visited { 
+    color: #5C5C5C;
+    text-decoration: none;
+    cursor: auto;
+  }
+  
+a:link:active, a:visited:active { 
+    color: #5C5C5C;
+  }
