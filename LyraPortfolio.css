@@ -30,20 +30,36 @@ body{
     
 }
 
-
-.info{
-    padding: 20px;
-    margin:auto;
-    background-color: #6976A5;
-    color: #F8F7FF;
+ul{
+    margin: auto 70px;
+    color: #424242;
     font-family: 'Merriweather', serif;
 }
 
-.info2{
+
+.info{
     padding: 20px;
     margin: auto;
-    color: #5C5C5C;
+    background-color: #B3B9D1;
+    color: #112A46;
     font-family: 'Merriweather', serif;
+    font-size: medium;
+}
+
+.info2{
+    
+    margin: 20px 60px;
+    color: #424242;
+    font-family: 'Merriweather', serif;
+    font-size: medium;
+}
+
+.caption{
+    padding: 13px;
+    background-color: #B3B9D1;
+    color: #112A46;
+    font-family: 'Merriweather', serif;
+    font-weight:normal;
 }
 
 #logo{
@@ -85,12 +101,16 @@ body{
 }
 
 .infoImgs{
-    max-width: fit-content;
-    margin: 10px;
+    margin: auto;
+    max-width: 60%;
 }
 
 .cardImg{
-    max-height: 300px;
+    
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    object-fit: scale-down;
 }
 
 a:link, a:visited { 
