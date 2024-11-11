@@ -23,6 +23,11 @@ h5{
     
 }
 
+hr{
+    border-top: 3px solid #6976A5;
+
+}
+
 
 body{
     padding: 40px;
